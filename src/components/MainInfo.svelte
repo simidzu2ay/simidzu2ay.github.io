@@ -32,7 +32,7 @@
     </section>
 
     <BuyMeACoffeeBtn
-      className="transition-all ease-in-out duration-500 hover:scale-110"
+      className="transition-all ease-in-out duration-500 hover:scale-110 scale-90 md:scale-100"
     />
   </div>
 </main>
