@@ -21,7 +21,7 @@
       class="mx-16 mt-3 flex items-center justify-center gap-4 md:mx-0 md:ml-4"
     >
       {#each links as link}
-        <a href={link.href}>
+        <a href={link.href} target="_blank">
           <Svg
             className="w-8 transition-all ease-in-out duration-500 hover:scale-150 md:w-12 md:hover:scale-125"
             fill={link.color}
