@@ -10,12 +10,14 @@
 		"prepare": "svelte-kit sync",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
-		"format": "prettier -w **/*.{ts,svelte,css,html}"
+		"format": "prettier -w **/*.{js,ts,svelte,css,html}",
+		"publish": "node ./scripts/publish.js"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"autoprefixer": "^10.4.7",
+		"gh-pages": "^4.0.0",
 		"postcss": "^8.4.13",
 		"prettier": "^2.5.1",
 		"prettier-plugin-svelte": "^2.5.0",
