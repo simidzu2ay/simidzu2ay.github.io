@@ -1,4 +1,8 @@
-<div class="bmc-btn-container">
+<script lang="ts">
+  export let className: string = '';
+</script>
+
+<div class={'bmc-btn-container ' + className}>
   <a class="bmc-btn" target="_blank" href="http://buymeacoffee.com/simidzu2ay"
     ><svg viewBox="0 0 884 1279" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path

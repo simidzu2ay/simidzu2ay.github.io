@@ -31,6 +31,8 @@
       {/each}
     </section>
 
-    <BuyMeACoffeeBtn />
+    <BuyMeACoffeeBtn
+      className="transition-all ease-in-out duration-500 hover:scale-110"
+    />
   </div>
 </main>
