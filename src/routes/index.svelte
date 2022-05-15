@@ -43,5 +43,5 @@
 </script>
 
 <div class="flex h-screen items-center justify-center">
-  <MainInfo imgSrc="avatar.png" {links} />
+  <MainInfo imgSrc="https://github.com/simidzu2ay.png" {links} />
 </div>
