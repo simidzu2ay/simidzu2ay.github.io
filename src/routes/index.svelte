@@ -1,6 +1,5 @@
 <script lang="ts">
   import type { MainInfoLink } from 'src/components/types/MainInfo';
-
   import MainInfo from '../components/MainInfo.svelte';
 
   const icons = {
