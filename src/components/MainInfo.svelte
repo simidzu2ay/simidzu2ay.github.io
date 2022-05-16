@@ -1,19 +1,29 @@
 <script lang="ts">
   import BuyMeACoffeeBtn from './BuyMeACoffeeBtn.svelte';
   import Svg from './Svg.svelte';
+  import { svgs } from '../constants';
   import type { MainInfoLink } from './types/MainInfo';
 
   export let imgSrc: string;
   export let links: MainInfoLink[];
+
+  const quotes = svgs.quote;
 </script>
 
 <main
-  class="flex flex-col items-center justify-center rounded-xl bg-gray-600 py-8 px-4 md:flex-row md:px-8 scale-[0.8] sm:scale-[0.85] md:scale-[0.9] lg:scale-100 xl:scale-[1.1]"
+  class="flex scale-[0.8] flex-col items-center justify-center rounded-xl bg-gray-600 py-8
+    px-4 sm:scale-[0.85] md:scale-[0.9] md:flex-row md:px-8 lg:scale-100 xl:scale-[1.1]"
 >
-  <section class="space-x-2">
+  <section
+    class="space-x-2 space-y-2 flex flex-col justify-center items-center"
+  >
     <img src={imgSrc} alt="Avatar" class="h-32 w-32 rounded-full" />
 
-    <p class="cursor-default text-lg font-bold text-[#FFF9E9]">@simidzu2ay</p>
+    <p class="cursor-default text-lg text-[#e2e2e2] flex">
+      <Svg svg={quotes.left} fill="#e2e2e2" className="quote -mt-1" />
+      <span class="px-2">Только дайте остаться собой...</span>
+      <Svg svg={quotes.right} fill="#e2e2e2" className="quote mt-2" />
+    </p>
   </section>
 
   <div id="links" class="flex flex-col items-center justify-center space-y-4">

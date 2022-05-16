@@ -8,6 +8,12 @@
   }
 }
 
+@layer components {
+  .quote {
+    @apply w-5
+  }
+}
+
 body {
   font-family: 'Roboto Flex', Arial, Helvetica, sans-serif;
 }
