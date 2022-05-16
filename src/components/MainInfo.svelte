@@ -8,7 +8,7 @@
 </script>
 
 <main
-  class="flex flex-col items-center justify-center rounded-xl bg-gray-600 py-8 px-4 md:flex-row md:px-8"
+  class="flex flex-col items-center justify-center rounded-xl bg-gray-600 py-8 px-4 md:flex-row md:px-8 scale-[0.8] sm:scale-[0.85] md:scale-[0.9] lg:scale-100 xl:scale-[1.1]"
 >
   <section class="space-x-2">
     <img src={imgSrc} alt="Avatar" class="h-32 w-32 rounded-full" />
