@@ -10,7 +10,7 @@
 
 @layer components {
   .quote {
-    @apply w-5
+    @apply w-5;
   }
 }
 
